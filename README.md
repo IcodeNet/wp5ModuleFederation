@@ -10,3 +10,7 @@
 - Live preview between applications that one affects the others data
 - Fully federated microsites using Router e.g. Home, Racecard, PoolSelection
 - Module Federation Dashboard
+
+We use a workspace so you will need yarn to run this
+So from the root dir `wp5` we should run:
+`yarn instal`

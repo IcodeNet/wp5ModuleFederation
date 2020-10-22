@@ -1,0 +1,32 @@
+{
+  "name": "nav",
+  "version": "1.0.1",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "start": "webpack-dev-server --open --mode development",
+    "start:live": "webpack-dev-server --open --mode development --liveReload"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "7.9.4",
+    "babel-loader": "8.1.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "1.2.1",
+    "webpack": "5.0.0",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.11.0",
+    "yarn": "^1.22.10"
+  },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-redux": "^7.2.1",
+    "recoil": "0.0.13",
+    "redux": "^4.0.5"
+  }
+}
